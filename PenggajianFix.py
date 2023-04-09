@@ -48,17 +48,17 @@ class Employee:
 
         # Hitung bonus
         bonus=0
-        if self.grade == 1 and self.num_children >= 1:
+        if self.grade == 1 and self.num_children >= 3:
             bonus = 250000
-        elif self.grade == 2 and self.num_children >= 2:
+        elif self.grade == 2 and self.num_children >= 3:
             bonus = 500000
         elif self.grade == 3 and self.num_children >= 3:
             bonus = 500000
-        elif self.grade == 4 and self.num_children >= 4:
+        elif self.grade == 4 and self.num_children >= 3:
             bonus = 750000
-        elif self.grade == 5 and self.num_children >= 5:
+        elif self.grade == 5 and self.num_children >= 3:
             bonus = 1000000
-        elif self.grade == 6 and self.num_children >= 6:
+        elif self.grade == 6 and self.num_children >= 3:
             bonus = 1500000
         else:
             bonus = 0
